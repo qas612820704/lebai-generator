@@ -6,12 +6,17 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "deploy": "gh-pages -d public/"
   },
   "dependencies": {
     "gatsby": "^2.0.33",
     "gatsby-source-filesystem": "^2.0.8",
+    "gh-pages": "^2.0.1",
+    "prop-types": "^15.6.2",
     "react": "^16.5.1",
-    "react-dom": "^16.5.1"
+    "react-dom": "^16.5.1",
+    "react-flexbox-grid": "^2.1.2",
+    "recompose": "^0.30.0"
   }
 }
